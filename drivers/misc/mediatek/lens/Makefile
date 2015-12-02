@@ -66,7 +66,7 @@ else
 				obj-$(CONFIG_MTK_LENS_LC898212AF_SUPPORT)    += mt6795/lc898212af/
 				obj-$(CONFIG_MTK_LENS_AK7345AF_SUPPORT)    += mt6795/ak7345af/
 			else
-				$(warning "Maybe you should set the lens folder for compile")
+#				$(warning "Maybe you should set the lens folder for compile")
 			endif
 		endif
 	    endif
